@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorveteria Moedas </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+<h1>Sorveteria Moedas</h1>
+    </header>
+   
+    <nav class="nav"></nav>
+     <div class="principal">
+
+      <div class="entradas">
+      </br>
+    <label>Digite seu nome</label>
+</br>
+    <input id="nome" type="text" placeholder="Nome"></input>
+   
+    </br>
+    <label >Quatidade</label>
+</br>
+    <input id="quantidade" type="number" placeholder="Minímo 1" min="1"></input>
+    </br>
+
+    <label>Sabores</label>
+</br>
+     <select id= "sabores">
+     </br>
+        <option>Selecione</option>
+    
+        <option value="menta">Menta</option>
+        <option value="chocomenta">Chocomenta</option>
+       <option value="morango">Morango</option>
+       <option value="chocolate">Chocolate</option>
+       <option value="flocos">Flocos</option>
+       <option value="maracujá"> Maracuja </option>
+       <option value="melancia">Melancia</option>
+       <option value="banana"> Banana </option>
+       <option value="baunilha">Baunilha</option>
+       <option value="Paçoca"> Paçoca </option>
+       <option value="ouro branco"> Ouro branco </option>
+       <option value="cereja"> Cereja</option>
+       <option value="Pistache"> Pistache </option>
+       <option value="Manga"> Manga </option>
+       <option value="Coco"> Coco</option>
+       
+
+     </select>
+    </br>
+   <button id="botao">fazer pedido</button>
+   </div>
+   </div>
+   <hr>
+
+<div class="principal">
+    <div class="saída">
+   <p id="pedidoNome"> </p>
+   <p id="pedidoQuantia"> </p>
+   <p id="pedidoSabor"> </p>
+
+   <script src="script.js"></script>
+</div>
+</div>
+</body>
+</html>
